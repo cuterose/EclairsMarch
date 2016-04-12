@@ -18,5 +18,6 @@ clickByXpath("//*[@id='ext-gen166']");
 enterByXpath("//*[@id='ext-gen112']","Sasi");
 enterByXpath("//*[@id='ext-gen114']","devi");
 clickByXpath("//*[@id='ext-gen158']");
+System.out.println("The contact has been created");
  }
 }

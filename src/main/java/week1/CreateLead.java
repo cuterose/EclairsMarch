@@ -23,6 +23,7 @@ public class CreateLead {
 		driver.findElementById("createLeadForm_firstName").sendKeys("Sasi");
 		driver.findElementByXPath("//*[@id='createLeadForm_lastName']").sendKeys("devi");
 		driver.findElementByXPath("//input[@value='Create Lead']").click();
+		System.out.println("The lead has been created");
 		driver.close();
 			
 	}
